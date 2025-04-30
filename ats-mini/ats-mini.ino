@@ -350,7 +350,7 @@ void updateBFO(int newBFO)
     newFreq = band->minimumFreq;
     newBFO  = 0;
   }
-
+ 
   // If need to change frequency...
   if(newFreq != currentFrequency)
   {
