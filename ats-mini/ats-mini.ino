@@ -103,7 +103,7 @@ void setup()
   pinMode(ENCODER_PUSH_BUTTON, INPUT_PULLUP);
   pinMode(ENCODER_PIN_A, INPUT_PULLUP);
   pinMode(ENCODER_PIN_B, INPUT_PULLUP);
-
+Serial.println("starting");
   // Enable audio amplifier
   // Initally disable the audio amplifier until the SI4732 has been setup
   pinMode(PIN_AMP_EN, OUTPUT);
